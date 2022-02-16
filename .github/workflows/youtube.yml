@@ -1,7 +1,7 @@
 name: Check for New YouTube Comments and Add to Orbit
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "47 2 * * *"
   workflow_dispatch:
 jobs:
   main:
